@@ -1,0 +1,460 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		53981BC33B8AAE26F061B794 /* Pods_PhotoLenta.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 413926ADDD5000C93BE54F3A /* Pods_PhotoLenta.framework */; };
+		9F20A60A267BBF4A0080855C /* SignUPController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F20A609267BBF4A0080855C /* SignUPController.swift */; };
+		9F20A60D267BDF180080855C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9F20A60C267BDF180080855C /* GoogleService-Info.plist */; };
+		9F20A637267C73B90080855C /* MainTabVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F20A636267C73B90080855C /* MainTabVC.swift */; };
+		9F20A644267C95BD0080855C /* FeedController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F20A643267C95BD0080855C /* FeedController.swift */; };
+		9FA5E595267B35A30093610E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FA5E594267B35A30093610E /* AppDelegate.swift */; };
+		9FA5E597267B35A30093610E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FA5E596267B35A30093610E /* SceneDelegate.swift */; };
+		9FA5E59C267B35A30093610E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FA5E59A267B35A30093610E /* Main.storyboard */; };
+		9FA5E59E267B35A80093610E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9FA5E59D267B35A80093610E /* Assets.xcassets */; };
+		9FA5E5A1267B35A80093610E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FA5E59F267B35A80093610E /* LaunchScreen.storyboard */; };
+		9FA5E5AB267B371B0093610E /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FA5E5AA267B371B0093610E /* LoginController.swift */; };
+		9FA5E5B1267B5C350093610E /* Utilites.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FA5E5B0267B5C350093610E /* Utilites.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		413926ADDD5000C93BE54F3A /* Pods_PhotoLenta.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PhotoLenta.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F20A609267BBF4A0080855C /* SignUPController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUPController.swift; sourceTree = "<group>"; };
+		9F20A60C267BDF180080855C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		9F20A636267C73B90080855C /* MainTabVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabVC.swift; sourceTree = "<group>"; };
+		9F20A643267C95BD0080855C /* FeedController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedController.swift; sourceTree = "<group>"; };
+		9FA5E591267B35A30093610E /* PhotoLenta.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhotoLenta.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9FA5E594267B35A30093610E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9FA5E596267B35A30093610E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		9FA5E59B267B35A30093610E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9FA5E59D267B35A80093610E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9FA5E5A0267B35A80093610E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9FA5E5A2267B35A80093610E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9FA5E5AA267B371B0093610E /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
+		9FA5E5B0267B5C350093610E /* Utilites.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilites.swift; sourceTree = "<group>"; };
+		A6844E1AD62F06B62377658F /* Pods-PhotoLenta.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PhotoLenta.release.xcconfig"; path = "Target Support Files/Pods-PhotoLenta/Pods-PhotoLenta.release.xcconfig"; sourceTree = "<group>"; };
+		ACAF57D79D8E2E8E13125551 /* Pods-PhotoLenta.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PhotoLenta.debug.xcconfig"; path = "Target Support Files/Pods-PhotoLenta/Pods-PhotoLenta.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9FA5E58E267B35A30093610E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53981BC33B8AAE26F061B794 /* Pods_PhotoLenta.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		596E863EB986C98CD1FA4074 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				413926ADDD5000C93BE54F3A /* Pods_PhotoLenta.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9F20A63A267C8FED0080855C /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				9F20A643267C95BD0080855C /* FeedController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		9FA5E588267B35A30093610E = {
+			isa = PBXGroup;
+			children = (
+				9FA5E593267B35A30093610E /* PhotoLenta */,
+				9FA5E592267B35A30093610E /* Products */,
+				F218834F14D343D94A601831 /* Pods */,
+				596E863EB986C98CD1FA4074 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		9FA5E592267B35A30093610E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9FA5E591267B35A30093610E /* PhotoLenta.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9FA5E593267B35A30093610E /* PhotoLenta */ = {
+			isa = PBXGroup;
+			children = (
+				9FA5E5AF267B5C160093610E /* Utilites */,
+				9FA5E5A9267B36BB0093610E /* Login */,
+				9FA5E594267B35A30093610E /* AppDelegate.swift */,
+				9FA5E596267B35A30093610E /* SceneDelegate.swift */,
+				9FA5E59A267B35A30093610E /* Main.storyboard */,
+				9FA5E59D267B35A80093610E /* Assets.xcassets */,
+				9FA5E59F267B35A80093610E /* LaunchScreen.storyboard */,
+				9F20A60C267BDF180080855C /* GoogleService-Info.plist */,
+				9FA5E5A2267B35A80093610E /* Info.plist */,
+			);
+			path = PhotoLenta;
+			sourceTree = "<group>";
+		};
+		9FA5E5A9267B36BB0093610E /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				9F20A63A267C8FED0080855C /* Controllers */,
+				9FA5E5AA267B371B0093610E /* LoginController.swift */,
+				9F20A609267BBF4A0080855C /* SignUPController.swift */,
+				9F20A636267C73B90080855C /* MainTabVC.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		9FA5E5AF267B5C160093610E /* Utilites */ = {
+			isa = PBXGroup;
+			children = (
+				9FA5E5B0267B5C350093610E /* Utilites.swift */,
+			);
+			path = Utilites;
+			sourceTree = "<group>";
+		};
+		F218834F14D343D94A601831 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				ACAF57D79D8E2E8E13125551 /* Pods-PhotoLenta.debug.xcconfig */,
+				A6844E1AD62F06B62377658F /* Pods-PhotoLenta.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9FA5E590267B35A30093610E /* PhotoLenta */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9FA5E5A5267B35A80093610E /* Build configuration list for PBXNativeTarget "PhotoLenta" */;
+			buildPhases = (
+				44AA9B945D2FB35D14BACC10 /* [CP] Check Pods Manifest.lock */,
+				9FA5E58D267B35A30093610E /* Sources */,
+				9FA5E58E267B35A30093610E /* Frameworks */,
+				9FA5E58F267B35A30093610E /* Resources */,
+				7134DA8F60220B8F555C03F0 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PhotoLenta;
+			productName = PhotoLenta;
+			productReference = 9FA5E591267B35A30093610E /* PhotoLenta.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9FA5E589267B35A30093610E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					9FA5E590267B35A30093610E = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = 9FA5E58C267B35A30093610E /* Build configuration list for PBXProject "PhotoLenta" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9FA5E588267B35A30093610E;
+			productRefGroup = 9FA5E592267B35A30093610E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9FA5E590267B35A30093610E /* PhotoLenta */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9FA5E58F267B35A30093610E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9FA5E5A1267B35A80093610E /* LaunchScreen.storyboard in Resources */,
+				9F20A60D267BDF180080855C /* GoogleService-Info.plist in Resources */,
+				9FA5E59E267B35A80093610E /* Assets.xcassets in Resources */,
+				9FA5E59C267B35A30093610E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		44AA9B945D2FB35D14BACC10 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PhotoLenta-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7134DA8F60220B8F555C03F0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PhotoLenta/Pods-PhotoLenta-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PhotoLenta/Pods-PhotoLenta-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PhotoLenta/Pods-PhotoLenta-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9FA5E58D267B35A30093610E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9FA5E5B1267B5C350093610E /* Utilites.swift in Sources */,
+				9F20A637267C73B90080855C /* MainTabVC.swift in Sources */,
+				9FA5E5AB267B371B0093610E /* LoginController.swift in Sources */,
+				9FA5E595267B35A30093610E /* AppDelegate.swift in Sources */,
+				9FA5E597267B35A30093610E /* SceneDelegate.swift in Sources */,
+				9F20A60A267BBF4A0080855C /* SignUPController.swift in Sources */,
+				9F20A644267C95BD0080855C /* FeedController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9FA5E59A267B35A30093610E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9FA5E59B267B35A30093610E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9FA5E59F267B35A80093610E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9FA5E5A0267B35A80093610E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9FA5E5A3267B35A80093610E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9FA5E5A4267B35A80093610E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9FA5E5A6267B35A80093610E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ACAF57D79D8E2E8E13125551 /* Pods-PhotoLenta.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X8KHXL86W5;
+				INFOPLIST_FILE = PhotoLenta/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ru.PhotoLenta;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		9FA5E5A7267B35A80093610E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A6844E1AD62F06B62377658F /* Pods-PhotoLenta.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X8KHXL86W5;
+				INFOPLIST_FILE = PhotoLenta/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ru.PhotoLenta;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9FA5E58C267B35A30093610E /* Build configuration list for PBXProject "PhotoLenta" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9FA5E5A3267B35A80093610E /* Debug */,
+				9FA5E5A4267B35A80093610E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9FA5E5A5267B35A80093610E /* Build configuration list for PBXNativeTarget "PhotoLenta" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9FA5E5A6267B35A80093610E /* Debug */,
+				9FA5E5A7267B35A80093610E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9FA5E589267B35A30093610E /* Project object */;
+}
