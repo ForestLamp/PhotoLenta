@@ -28,7 +28,6 @@ class MainTabVC: UITabBarController, UITabBarControllerDelegate {
         viewController.navigationItem.title = title
         navController.tabBarItem.image = unselectedImage
         navController.tabBarItem.selectedImage = selectedImage
-        
         viewController.view.backgroundColor = .white
         return navController
     }

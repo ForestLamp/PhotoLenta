@@ -174,7 +174,6 @@ class SignUPController: UIViewController, UIImagePickerControllerDelegate, UINav
         selectPhotoButton.centerXAnchor.constraint(equalTo: view.centerXAnchor).isActive = true
         selectPhotoButton.layer.cornerRadius = 250/2
         
-
         stackView.axis = .vertical
         stackView.spacing = 16
         stackView.distribution = .fillEqually
